@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¿Quieres ser mi esposa?</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #fef3d7;
+      color: #333;
+      padding: 50px;
+    }
+    h1 {
+      color: #ff69b4;
+      font-size: 3rem;
+    }
+    button {
+      font-size: 1.5rem;
+      padding: 10px 20px;
+      margin: 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #ff69b4;
+      color: white;
+    }
+    .siii {
+      background-color: #4caf50;
+      color: white;
+    }
+    .no {
+      background-color: #f44336;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>¿Quieres ser mi esposa?</h1>
+  <button class="siii" onclick="respuestaSi()">¡Siii!</button>
+  <button class="no" onclick="respuestaNo()">No...</button>
+  <br><br>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7c36pInnsI3DzAGDQcTW99?utm_source=generator" width="300" height="80" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  <script>
+    function respuestaSi() {
+      alert("¡Sabía que dirías que sí! 💍❤️");
+      document.body.innerHTML = "<h1>¡Te amo, mi futura esposa! 💕</h1>";
+    }
+    function respuestaNo() {
+      alert("¡Oh, piénsalo otra vez! 😢");
+    }
+  </script>
+</body>
+</html>
